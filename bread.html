@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadtin Mombasa | Artisanal Bakery & Patisserie</title>
+    <meta name="description" content="Experience the finest artisanal bread and pastries in Mombasa. Hand-crafted, slow-fermented, and baked with passion.">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Premium Navigation -->
+    <nav>
+        <div class="container nav-content">
+            <a href="#" class="logo">BREADTIN <strong>MOMBASA</strong></a>
+            <ul class="nav-links">
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#products">Bakery</a></li>
+                <li><a href="#contact">Orders</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary" style="padding: 0.8rem 1.5rem;">Order Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/hero.png" alt="Artisanal Bread" class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="reveal">The Art of <br>Slow Baking.</h1>
+            <p class="reveal">Ancient grains, long fermentation, and traditional stone-baking techniques. Discover the true taste of artisanal bread in the heart of Mombasa.</p>
+            <div class="reveal">
+                <a href="#products" class="btn btn-primary">Discover Our Menu</a>
+                <a href="#about" class="btn btn-outline">Our Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div class="reveal">
+                    <h2 style="font-size: 3rem; margin-bottom: 2rem;">Small Batch, <br>Big Heart.</h2>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-muted);">At Breadtin Mombasa, we believe that time is the most important ingredient. Our breads undergo a 24-hour cold fermentation process, allowing deep flavors to develop naturally.</p>
+                    <p style="color: var(--text-muted);">Founded on the shores of the Indian Ocean, we bring European artisanal traditions to the vibrant community of Mombasa, using local inspiration and the finest global techniques.</p>
+                </div>
+                <div class="reveal" style="border-radius: 20px; overflow: hidden; height: 500px;">
+                    <img src="images/sourdough.png" alt="Baker at work" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Gallery -->
+    <section id="products" class="section-padding" style="background: #faf7f2;">
+        <div class="container">
+            <div class="reveal" style="text-align: center; margin-bottom: 4rem;">
+                <h2 style="font-size: 3rem; margin-bottom: 1rem;">Daily Bakes</h2>
+                <p style="color: var(--text-muted);">Fresh from the oven, every single morning.</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Croissants -->
+                <div class="product-card reveal">
+                    <div class="product-img">
+                        <img src="images/croissants.png" alt="Butter Croissants">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Golden Croissants</h3>
+                        <p style="margin-bottom: 1rem; color: var(--text-muted);">Triple-laminated with premium butter.</p>
+                        <span class="product-price">KES 450</span>
+                    </div>
+                </div>
+
+                <!-- Baguettes -->
+                <div class="product-card reveal">
+                    <div class="product-img">
+                        <img src="images/baguette.png" alt="French Baguette">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">French Baguette</h3>
+                        <h3 class="product-title">French Baguette</h3>
+                        <p style="margin-bottom: 1rem; color: var(--text-muted);">Classic crusty exterior, soft airy interior.</p>
+                        <span class="product-price">KES 300</span>
+                    </div>
+                </div>
+
+                <!-- Tarts -->
+                <div class="product-card reveal">
+                    <div class="product-img">
+                        <img src="images/tarts.png" alt="Berry Tarts">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Wild Berry Tarts</h3>
+                        <p style="margin-bottom: 1rem; color: var(--text-muted);">Seasonal berries on almond frangipane.</p>
+                        <span class="product-price">KES 650</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Order Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="contact-container reveal">
+                <div style="text-align: center; margin-bottom: 4rem;">
+                    <h2 style="font-size: 3.5rem; margin-bottom: 1.5rem;">Inquire or Order</h2>
+                    <p style="color: var(--text-muted);">Looking for a custom cake or a bulk delivery? We'd love to hear from you.</p>
+                </div>
+                
+                <form id="contactForm">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Alex Odhiambo" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="alex@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Select Service</label>
+                        <select style="width: 100%; padding: 1rem; border: 1px solid rgba(74, 52, 46, 0.1); border-radius: 4px; background: white;">
+                            <option>Special Order</option>
+                            <option>Wholesale Inquiry</option>
+                            <option>Event Catering</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Message</label>
+                        <textarea rows="5" placeholder="Tell us what you're craving..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: var(--bg-dark); color: var(--white); padding: 4rem 0;">
+        <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem;">
+            <div>
+                <a href="#" class="logo" style="color: var(--white); margin-bottom: 1.5rem; display: block;">BREADTIN <strong>MOMBASA</strong></a>
+                <p style="opacity: 0.6; font-size: 0.9rem;">Bridging European bakery traditions with the warmth of Mombasa.</p>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 1.5rem;">Visit Us</h4>
+                <p style="opacity: 0.6; font-size: 0.9rem;">Nyali Road, Near City Mall<br>Mombasa, Kenya</p>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 1.5rem;">Hours</h4>
+                <p style="opacity: 0.6; font-size: 0.9rem;">Mon-Sat: 7:00 AM - 7:00 PM<br>Sun: 8:00 AM - 4:00 PM</p>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 1.5rem;">Follow</h4>
+                <div style="display: flex; gap: 1rem; opacity: 0.6;">
+                    <span>Instagram</span>
+                    <span>Facebook</span>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="border-top: 1px solid rgba(255, 255, 255, 0.1); margin-top: 4rem; padding-top: 2rem; text-align: center; font-size: 0.8rem; opacity: 0.4;">
+            <p>&copy; 2024 Breadtin Mombasa. Built with passion.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
